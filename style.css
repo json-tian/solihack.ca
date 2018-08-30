@@ -21,6 +21,10 @@ body {
   z-index: 1;
 }
 
+.caption img {
+  height: 300px;
+}
+
 .caption h3 {
   color: white;
   font-size: 2.4rem;
@@ -30,7 +34,7 @@ body {
 
 .caption h2 {
   color: #76cbff;
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   padding-bottom: 2rem;
 }
@@ -65,27 +69,52 @@ h3.heading {
   padding: 4rem 0;
 }
 
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 575px) {
   .navbar-brand img {
     height: 2rem;
   }
 
   .caption h2 {
-    color: #68adee;
-    font-size: 2.5rem;
-    text-transform: uppercase;
     padding-bottom: 0;
+    font-size: 2.5rem;
   }
 
   .caption img {
-    height: 150px;
+    height: 200px;
+  }
+
+  .caption {
+    top: 15%;
+  }
+
+  .btn {
+    font-size: 0.7rem;
   }
 }
 
-img.sponsors {
-  margin: auto;
-  display: block;
-  max-width: 100%;
+@media only screen and (max-width: 500px) {
+  .caption img {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .caption img {
+    height: 150px;
+  }
+
+  .caption h2 {
+    padding-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.5rem;
+  }
+
+  .navbar-brand img {
+    height: 1rem;
+  }
 }
 
 #sponsors p {
@@ -145,6 +174,10 @@ img.sponsors {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
+}
+
+a.btn {
+  cursor: default;
 }
 
 .edgepadding {
