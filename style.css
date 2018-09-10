@@ -7,10 +7,11 @@ body {
 .navbar {
   text-transform: uppercase;
   background-color: rgba(88, 195, 228);
+  height: 10%;
 }
 
 .navbar-brand img {
-  height: 2.5rem;
+  height: 2em;
 }
 
 form {
@@ -19,18 +20,19 @@ form {
 
 .form p {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 input[type="text"] {
   width: 33%;
-  height: 40px;
+  height: 6vh;
   vertical-align: bottom;
 }
 
 input[type="submit"] {
   cursor: pointer;
-  height: 40px;
+  font-size: 1em;
+  height: 6vh;
 }
 
 .caption {
@@ -42,7 +44,7 @@ input[type="submit"] {
 }
 
 .caption img {
-  height: 300px;
+  height: 40vh;
 }
 
 .caption h3 {
@@ -54,9 +56,9 @@ input[type="submit"] {
 
 .caption h2 {
   color: #6cd1ef;
-  font-size: 3rem;
+  font-size: 3em;
   text-transform: uppercase;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-family: "Roboto", serif;
 }
 
@@ -89,66 +91,43 @@ h3.heading {
   padding: 4rem 0;
 }
 
-@media only screen and (max-height: 575px) {
-  .navbar-brand img {
-    height: 2rem;
+@media only screen and (max-height: 600px) {
+  .caption h3 {
+    padding-bottom: 0;
   }
 
   .caption h2 {
     padding-bottom: 0;
-    font-size: 2.5rem;
-  }
-
-  .caption img {
-    height: 200px;
-  }
-
-  .caption {
-    top: 15%;
-  }
-
-  .btn {
-    font-size: 0.7rem;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 370px) {
   .caption img {
-    height: 200px;
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .caption h2 {
+    font-size: 2em;
+  }
+
+  .form p {
+    font-size: 0.8em;
   }
 
   input[type="text"] {
     width: 50%;
   }
 }
-
-@media only screen and (max-height: 480px) {
-  .caption img {
-    height: 150px;
-  }
-
-  .caption h2 {
-    padding-bottom: 0;
-    font-size: 1.5rem;
-  }
-
-  .btn {
-    font-size: 0.5rem;
-  }
-
-  .navbar-brand img {
-    height: 1rem;
+@media only screen and (max-width: 300px) {
+  div.linksnav {
+    display: none;
   }
 }
 
 #sponsors p {
   text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-  #sponsors .btn {
-    font-size: 0.6rem;
-  }
 }
 
 .no-padding .col-md-6 {
