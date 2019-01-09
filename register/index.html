@@ -1,0 +1,336 @@
+<html lang="en">
+  <head>
+    <title>SoliHack Registration</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/vendor/animate/animate.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/css/util.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+
+  <body>
+    <div
+      class="bg-contact3"
+      style="background-image: url('static/images/bg-01.jpg');"
+    >
+      <div class="container-contact3">
+        <div class="wrap-contact3">
+          <form
+            action="register.php"
+            class="contact3-form validate-form"
+            ,
+            method="post"
+          >
+            <span class="contact3-form-title">
+              Apply now for SoliHack 2019!
+            </span>
+            <h5>What is your full name?</h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Name is required"
+            >
+              <input
+                class="input3"
+                type="text"
+                name="name"
+                placeholder="Your Name"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What is your current age?</h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Age is required"
+            >
+              <input
+                class="input3"
+                type="number"
+                name="age"
+                placeholder="Your Age"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>
+              What is your email? (make sure to check your email for updates of
+              acceptance and forms to be filled out)
+            </h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Valid email is required."
+            >
+              <input
+                class="input3"
+                type="text"
+                name="email"
+                placeholder="Your Email"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What school/university do you attend?</h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Please enter your school."
+            >
+              <input
+                class="input3"
+                type="text"
+                name="school"
+                placeholder="Enter School Name"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What grade/year are you in?</h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Please enter your grade/year"
+            >
+              <input
+                class="input3"
+                type="text"
+                name="grade"
+                placeholder="Ex: Year 1, Grade 11"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What is your expected year of graduation?</h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Please enter the year of graduation."
+            >
+              <input
+                class="input3"
+                type="number"
+                name="grad"
+                placeholder="Enter Year"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>
+              If you are a university student, what is your current major?
+              Otherwise, skip this question.
+            </h5>
+            <div
+              class="wrap-input3 validate-input"
+              data-validate="Please enter your major"
+            >
+              <input
+                class="input3"
+                type="text"
+                name="major"
+                placeholder="Enter Major"
+              />
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What is your gender?</h5>
+            <div class="wrap-input3 input3-select">
+              <div>
+                <select class="selection-2" name="gender">
+                  <option>Select One</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Non-Binary</option>
+                  <option>Other</option>
+                  <option>Prefer not to say</option>
+                </select>
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>Which of the following do you fall under?</h5>
+            <div class="wrap-input3 input3-select">
+              <div>
+                <input
+                  type="checkbox"
+                  name="ethnicity[]"
+                  value="Caucasian"
+                /><label>Caucasian</label><br />
+                <input type="checkbox" name="ethnicity[]" value="Asian" /><label
+                  >Asian</label
+                ><br />
+                <input
+                  type="checkbox"
+                  name="ethnicity[]"
+                  value="Middle Eastern"
+                /><label>Middle Eastern</label><br />
+                <input type="checkbox" name="ethnicity[]" value="Black" /><label
+                  >Black</label
+                ><br />
+                <input
+                  type="checkbox"
+                  name="ethnicity[]"
+                  value="Latin American"
+                /><label>Latin American</label><br />
+                <input
+                  type="checkbox"
+                  name="ethnicity[]"
+                  value="Pacific Islander"
+                /><label>Pacific Islander</label><br />
+                <input
+                  type="checkbox"
+                  name="ethnicity[]"
+                  value="Prefer not to say"
+                /><label>Prefer not to say</label><br />
+                <input type="checkbox" name="ethnicity[]" value="Other" /><label
+                  >Other</label
+                >
+                <input
+                  type="text"
+                  name="other_option"
+                  class="input3"
+                  placeholder="If other, please enter here."
+                />
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+
+            <h5>Please link your resume! (through Google Drive)</h5>
+            <br />
+            <div class="wrap-input3 input3-select">
+              <div>
+                <input
+                  class="input3"
+                  type="text"
+                  name="resume"
+                  placeholder="A Google Drive Link"
+                />
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>What is your t-shirt size?</h5>
+            <div class="wrap-input3 input3-select">
+              <div>
+                <select class="selection-2" name="tshirt">
+                  <option>Select One</option>
+                  <option>Small</option>
+                  <option>Medium</option>
+                  <option>Large</option>
+                  <option>X-Large</option>
+                </select>
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+            <h5>
+              Please read the
+              <a
+                href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                target="_blank"
+                >MLH Code of Conduct</a
+              >
+              and confirm that you agree
+            </h5>
+            <br />
+            <div class="wrap-input3 input3-select">
+              <div>
+                <input
+                  type="checkbox"
+                  name="conduct[]"
+                  id="conduct"
+                  value="1"
+                /><label for="checkbox"
+                  >I have read and agree to the MLH Code of Conduct.</label
+                >
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+
+            <h5>Do you agree with the following?</h5>
+            <br />
+            <div class="wrap-input3 input3-select">
+              <div>
+                <input
+                  type="checkbox"
+                  name="policy[]"
+                  id="policy"
+                  value="1"
+                /><label for="checkbox">
+                  I authorize you to share my application/registration
+                  information for event administration, ranking, MLH
+                  administration, pre- and post-event informational e-mails, and
+                  occasional messages about hackathons in-line with the
+                  <a href="https://mlh.io/privacy" target="_blank"
+                    >MLH Code of Conduct</a
+                  >. I further I agree to the terms of both the
+                  <a
+                    href="https://github.com/MLH/mlh-policies/tree/master/prize-terms-and-conditions"
+                    target="_blank"
+                    >MLH Contest Terms and Conditions</a
+                  >
+                  and the
+                  <a href="https://mlh.io/privacy" target="_blank"
+                    >MLH Privacy Policy</a
+                  >.</label
+                >
+              </div>
+              <span class="focus-input3"></span>
+            </div>
+            <br />
+
+            <div class="container-contact3-form-btn">
+              <button class="contact3-form-btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/bootstrap/js/popper.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/select2/select2.min.js"></script>
+    <script>
+      $(".selection-2").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $("#dropDownSelect1")
+      });
+    </script>
+    <!--===============================================================================================-->
+    <script src="static/js/main.js"></script>
+  </body>
+</html>

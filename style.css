@@ -7,7 +7,6 @@ body {
 .navbar {
   text-transform: uppercase;
   background-color: rgba(88, 195, 228);
-  height: 10%;
 }
 
 .navbar-brand img {
@@ -57,7 +56,6 @@ input[type="submit"] {
 .caption h2 {
   color: #6cd1ef;
   font-size: 3em;
-  text-transform: uppercase;
   padding-bottom: 1rem;
   font-family: "Roboto", serif;
 }
