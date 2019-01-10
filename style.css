@@ -56,7 +56,7 @@ input[type="submit"] {
 .caption h2 {
   color: #6cd1ef;
   font-size: 3em;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   font-family: "Roboto", serif;
 }
 
@@ -71,9 +71,9 @@ iframe {
 .btn {
   font-family: "Montserrat", serif;
   border-width: medium;
-  border-color: #6cd1ef;
+  border-color: #24beec;
   font-size: 0.9rem;
-  background-color: #d1f7fd;
+  background-color: #4fc8ec;
 }
 
 h3.heading {
@@ -275,4 +275,20 @@ div.linkslight a:hover {
   .toggle p {
     font-size: 16px;
   }
+}
+
+.apply {
+  font-size: 18px;
+  text-decoration-style: bold;
+  margin: 5px;
+  color: white;
+}
+
+.hacker {
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Roboto", serif;
+  color: #6cd1ef;
 }
